@@ -15,16 +15,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raulglezrdguez.ExchangeRateRNExpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.raulglezrdguez.ExchangeRateRNExpo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cfb2e903-7105-4858-9c8e-85b7fd653aae"
+      }
+    },
+    "plugins": [
+      "@config-plugins/detox"
+    ]
   }
 }
